@@ -1,0 +1,30 @@
+body{
+    font-family: Oswald;
+    background-color: #b4edc6;
+    color: #525471;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Bebas Neue;
+    font-size: 35pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero,footer{
+    color: #9E4D4C;
+    border: 3px solid #525471;
+    background-color: #3a46f0;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img{
+    width: 350px;
+}
+
+#bio{
+    text-align: center;
+}
