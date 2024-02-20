@@ -14,7 +14,7 @@ header{
     text-align: center;
 }
 
-#hero,footer{
+#hero,footer,gallery{
     color: #b4edc6;
     border: 3px solid #525471;
     background-color: #3a46f0;
@@ -29,4 +29,13 @@ header{
 
 #bio{
     text-align: center;
+}
+
+#hobby{
+    color: #b4edc6;
+    border: 3px solid #F04f4d;
+    background-color: #3a46f0;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
 }
