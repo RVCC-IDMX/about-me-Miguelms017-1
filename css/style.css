@@ -39,3 +39,7 @@ header{
     font-size: 18px;
     padding: 10px;
 }
+
+#gallery img{
+    max-width: 100%;
+}
