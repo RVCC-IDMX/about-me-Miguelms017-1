@@ -94,7 +94,7 @@ section#hobby {
 
 /*large*/
 
-@media screen and (min-width: 60em){
+@media screen and (min-width: 100em){
     #gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
