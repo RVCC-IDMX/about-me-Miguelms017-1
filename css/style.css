@@ -103,11 +103,10 @@ section#hobby {
     hr{
         display: none;
     }
-    #gallery h2{
+    #gallery h6{
         grid-column: 1/-1;
     }
     figure{
         display: block;
-        
     }
 }
