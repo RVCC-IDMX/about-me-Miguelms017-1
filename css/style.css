@@ -109,6 +109,9 @@ section#hobby {
     #gallery figcaption{
         order: 1;
     }
+    #gallery figure img{
+    	height:100%;
+    }
     figure{
         display: block;
     }
