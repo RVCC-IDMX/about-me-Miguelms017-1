@@ -61,11 +61,11 @@ section#hobby {
 }
 
 @media screen and (min-width: 60em){
-    figure{
+    #gallery figure{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    figcaption{
+    #gallery figcaption{
         display:flex;
         justify-content:center;
         align-items: center;
