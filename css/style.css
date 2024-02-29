@@ -18,7 +18,7 @@ header{
     text-align: center;
 }
 
-#hero,footer,gallery{
+#hero,footer{
     color: #b4edc6;
     border: 3px solid #525471;
     background-color: #3a46f0;
