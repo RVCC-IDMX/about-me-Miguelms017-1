@@ -61,6 +61,11 @@ section#hobby {
     margin: 0.4em;
 }
 
+#lit{
+    background-color: #b4ed87;
+    border: 3p solid #f04f4d;
+    padding: 1opx;
+}
 @media screen and (min-width: 60em){
     #gallery figure{
         display: grid;
