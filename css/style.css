@@ -110,7 +110,7 @@ section#hobby {
         order: 1;
     }
     #gallery figure img{
-    	height:100%;
+    	width:100%;
     }
     figure{
         display: block;
