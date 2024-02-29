@@ -63,8 +63,9 @@ section#hobby {
 
 #lit{
     background-color: #b4ed87;
-    border: 3p solid #f04f4d;
-    padding: 1opx;
+    margin: 10px;
+    border: 3px solid #f04f4d;
+    padding: 10px;
 }
 @media screen and (min-width: 60em){
     #gallery figure{
