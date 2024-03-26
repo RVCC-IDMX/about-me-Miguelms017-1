@@ -65,11 +65,51 @@
         </section>
         <section id="video">
             <section id="iframe">
-                <iframe width="560px" height="315px" src="https://www.youtube.com/embed/TS8Ri0EyAKM?si=Vou6lCt3DZcXjLyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/TS8Ri0EyAKM?si=Vou6lCt3DZcXjLyW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </section>
             <section id="caption">
                 <h6>Context:</h6>
                 <p>This video makes part of an assigment for other class from the teacher who is teaching me about using HTML. It's a 1-minute lenght video which uses Creative-Commons content.</p>
+            </section>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form data-netlify="true">
+                <fieldset>
+                    <legend>Contact form</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="text" id-="email" name="email">
+                    <br>
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone">
+                    <br>
+                    <label from="ptype">Phone Type</label>
+                    <select name="ptype" size="1">
+                        <option value="home">landline phone</option>
+                        <option value="movistar">mobile phone</option>
+                    </select>
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" rows="10" cols="35">leave a message for me</textarea>
+                    <br>
+                    <text>Do you want a followup?</text>
+                    <input type="radio" id="yes" name="followup" value="1">
+                    <label for="yes"> yes </label>
+                    <input type="radio" id="no" name="followup" value="0">
+                    <label for="no"> no </label>
+                    <br>
+                    <input id="submit" type="submit" value="submit">
+                    <input id="clear" type="reset" value="Clear">
+                </fieldset>
+            </form>
+            <section id="blank">
+            </section>
+            <section id="contactmeimg">
+                <img src="img/5d786b0721b0b2e297a82168_forms-icon-300px.png" alt="form icon">
             </section>
         </section>
     </main>
