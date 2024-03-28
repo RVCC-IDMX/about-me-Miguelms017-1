@@ -142,16 +142,24 @@ fieldset{
     padding: 10px;
 }
 input[type="text" i]{
+    background-color: #b4ed87;
+    border-radius: 10px;
     align-items: end;
     max-width: 450px;
     height:24px;
 }
 select{
+    background-color: #b4ed87;
+    color:#525471;
     height: 30px;
+    padding: 3px;
+    border-radius: 10px;
 }
 textarea{
+    background-color: #b4ed87;
     max-height:220px;
     width:100%;
+    border-radius: 10px;
 }
 /*small screens*/
 
