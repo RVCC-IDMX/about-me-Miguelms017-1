@@ -119,6 +119,7 @@ fieldset{
     Background-color: #3a46f0;
     color: #b4edc6;
     border-radius: 20px;
+    padding: 20px;
 }
 #contactmeimg img{
     display: flex;
