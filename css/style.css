@@ -25,6 +25,11 @@ header{
     text-align: center;
     font-size: 18px;
     padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+#hero{
+    border-radius: 0 0 20px 20px;
 }
 
 #hero img{
@@ -47,6 +52,7 @@ section#hobby {
     background-color: #3a46f0;
     font-size: 18px;
     padding: 10px;
+    border-radius: 20px;
 }
 
 #hobby h2{
