@@ -84,7 +84,7 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
-@media screen and (max-width: 100rem){
+@media screen and (max-width: 90rem){
     .navbar {
         flex-direction: column;
     }
@@ -94,7 +94,7 @@ such that no text wraps
         justify-content: space-between;
     } 
 }
-@media screen and (max-width: 60rem){
+@media screen and (max-width: 45rem){
     .navbar {
         flex-direction: column;
     }

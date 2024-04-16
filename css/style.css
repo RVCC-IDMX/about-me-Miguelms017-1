@@ -29,7 +29,7 @@ header{
 }
 
 #hero{
-    border-radius: 0 0 20px 20px;
+    border-radius:20px;
 }
 
 #hero img{
@@ -68,10 +68,17 @@ section#hobby {
 }
 
 #lit{
-    background-color: #b4ed87;
+    background-color: #3a46f0;
     margin: 10px;
     border: 3px solid #f04f4d;
     padding: 10px;
+    border-radius: 20px;
+}
+#newArticle{
+    background-color: #b4ed87;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
 }
 #video{
     Background-color: #3a46f0;
