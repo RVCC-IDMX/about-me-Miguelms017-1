@@ -84,24 +84,75 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+@media screen and (min-width: 90rem) {
+    .menu, .fi-br-menu-burger, .checkbox, .cerrar{
+        display:none;
+    }
+}
 @media screen and (max-width: 90rem){
     .navbar {
         flex-direction: column;
+        .cerrar{
+            display: none;
+            width: 32px;
+        }
+        .checkbox:checked ~ .fi-br-menu-burger, .menu{
+            display:none;
+        }
+        .checkbox:checked ~ .cerrar{
+            display:flex;
+        }
+    }
+    .navbar-links{
+        display:none;
     }
     
-    .navbar-links ul{
-        display: Flex;
-        justify-content: space-between;
+    .checkbox, .icons, .cerrar{
+        width:30px;
+        height: 30px;
+        position:absolute;
+        top:30px;
+        right:28px;
+    }
+    .icons, .cerrar{
+        width: 32px;
+        height: 32px;
+        pointer-events: none;
+    }
+    .checkbox{
+        opacity: 0;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0.5em 0;
+        
+    }
+    .menu li{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0.5em 0;
+        justify-content: center;
     } 
-}
-@media screen and (max-width: 45rem){
-    .navbar {
-        flex-direction: column;
+    .menu a{
+        color:#525471;
+        background-color: #b4ed87 ;
+        Padding: 1rem 1.25rem;
+        letter-spacing: 0.7px;
+        display: inline-block;
+        width:250px
+    }
+    .menu a:hover, .menu a:focus{
+        color: #b4ed87;
+        background-color: #525471;
+        border:#f04f4b 3px solid;
+        border-radius: 15px;
+        outline: none;
+    }
+    .checkbox:checked ~ .menu{
+        display:block;
+    }
     }
     
-    .navbar-links ul{
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr 1fr;
-    }
-}
+
