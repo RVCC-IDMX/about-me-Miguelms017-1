@@ -83,11 +83,17 @@ section#hobby {
     padding: 10px;
     border-radius: 20px;
 }
+#newArticle h2{
+    color: #525471
+}
 #newArticle2{
     background-color: #b4ed87;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
+}
+#newArticle2 h2{
+    color: #525471
 }
 #linkToBlog{
     color: #b4ed87;
