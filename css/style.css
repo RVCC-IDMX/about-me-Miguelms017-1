@@ -74,6 +74,9 @@ section#hobby {
     padding: 10px;
     border-radius: 20px;
 }
+#lit h2{
+    color: #b4ed87;
+}
 #newArticle{
     background-color: #b4ed87;
     margin: 10px;
