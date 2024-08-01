@@ -196,6 +196,13 @@ textarea{
 footer a{
     color: #b4ed87;
 }
+.GHLogo, .BSLogo{
+    width: 16px;
+    margin-right: 3px;
+}
+.links{
+    display: none;
+}
 /*small screens*/
 
 @media screen and (min-width: 60em){
@@ -234,6 +241,12 @@ footer a{
     textarea{
         max-height:100%;
         width:100%;
+    }
+    .links{
+        display: block;
+    }
+    .icoLinks{
+        display: none;
     }
 }
 
